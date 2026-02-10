@@ -1,6 +1,7 @@
 # ConfigLang
 
 An embedded configuration and automation language library written in pure C99 with Python bindings. ConfigLang provides a simple, readable syntax for configuration files with support for variables, conditionals, and type safety.
+> pypi:[https://pypi.org/project/configlang/](https://pypi.org/project/configlang/)
 
 ## Features
 
