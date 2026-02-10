@@ -1,21 +1,21 @@
-from setuptools import setup, Extension
+from setuptools import setup, Extension,find_packages
 import os
 import shutil
 
 
 setup(
     name='configlang',
-    version='1.0.0',
+    version='1.0.1',
     description='Embedded configuration and automation language library',
     long_description=open('README.md', 'r', encoding='utf-8').read(),
     long_description_content_type='text/markdown',
     author='hejhdiss',
     
 
-    py_modules=['configlang'],
+    packages=find_packages(),
     
     package_data={
-        '': ['configlang.dll'],
+     'configlang': ['*'],  
     },
     include_package_data=True,
     
